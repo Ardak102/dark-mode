@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #414141;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: .2s all linear;
+}
+
+.container {
+    max-width: 500px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #414141;
+    border-radius: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.cute {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* ACTIVE MOD */
+
+button.active {
+    background-color: #fff;
+}
+
+#n-mod.active {
+    color: #fff;
+}
+
+body.active {
+    background-color: #414141;
+}
+
